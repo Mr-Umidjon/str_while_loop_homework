@@ -7,10 +7,11 @@ def main(s):
         int: return answer
     """
     count = 0
-    for i in s:
-        if i.isdigit():
+    i = 0
+    while i < len(s):
+        if s[i].isdigit():
             count += 1
-
+        i += 1
     return count
 
 
