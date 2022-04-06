@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    count = 0
+    for i in s:
+        if i.isdigit():
+            count += 1
+
+    return count
+
+
+print(main('2j344'))
