@@ -15,10 +15,11 @@ def main(s):
     k = 0
 
     while i < len(s):
-        if s[i] in result:
+        if s[i] not in result:
             k += 1
         i += 1
     return k
+
 
 
 print(main('asa'))
