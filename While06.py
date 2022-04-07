@@ -8,14 +8,14 @@ def main(s):
         int: return answer
     """
 
-    result = 'aeiouAEIOU'
+    result = 'bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ'
     # print(result)
 
     i = 0
     k = 0
 
     while i < len(s):
-        if s[i] not in result:
+        if s[i] in result:
             k += 1
         i += 1
     return k
