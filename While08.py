@@ -10,7 +10,7 @@ def main(s):
     k = 0
 
     while i < len(s):
-        son = int(i)
+        son = int(s[i])
         if son % 2 == 1:
             k += 1
         i += 1
