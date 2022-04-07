@@ -8,7 +8,7 @@ def main(s):
         int: return answer
     """
 
-    result = 'aeiou'
+    result = 'aeiouAEIOU'
     # print(result)
 
     i = 0
@@ -19,7 +19,6 @@ def main(s):
             k += 1
         i += 1
     return k
-
 
 
 print(main('asa'))
