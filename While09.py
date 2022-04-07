@@ -6,4 +6,15 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    k = 0
+    son = int(s)
+
+    while son > 0:
+        son1 = son % 10
+        son //= 10
+        k += son1
+
+    return k
+
+
+print(main('12345'))
