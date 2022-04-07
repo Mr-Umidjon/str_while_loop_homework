@@ -7,4 +7,18 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+
+    result = 'aeiou'
+    # print(result)
+
+    i = 0
+    k = 0
+
+    while i < len(s):
+        if s[i] in result:
+            k += 1
+        i += 1
+    return k
+
+
+print(main('asa'))
